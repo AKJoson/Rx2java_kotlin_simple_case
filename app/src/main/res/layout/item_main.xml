@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="textValue"
+            type="String" />
+
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/first_blood"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="@{clickListener}"
+            android:textColor="#ff00ff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:text="@{textValue}"
+            app:textAllCaps="false" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

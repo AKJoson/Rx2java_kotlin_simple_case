@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cherry.rxjavakotlin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.operator.JustActivity" />
+        <activity android:name=".ui.operator.BufferActivity" />
+        <activity android:name=".ui.operator.DebounceActivity" />
+        <activity android:name=".ui.operator.DelayActivity" />
+        <activity android:name=".ui.operator.TimerActivity" />
+        <activity android:name=".ui.operator.IntervalActivity" />
+        <activity android:name=".ui.operator.DisposableActivity" />
+        <activity android:name=".ui.operator.DistinctActivity" />
+        <activity android:name=".ui.operator.FilterActivity" />
+        <activity android:name=".ui.operator.LastActivity" />
+        <activity android:name=".ui.operator.MapActivity" />
+        <activity android:name=".ui.operator.MergeActivity" />
+        <activity android:name=".ui.operator.PublishSubjectActivity" />
+        <activity android:name=".ui.operator.ReduceActivity" />
+        <activity android:name=".ui.operator.ReplayActivity" />
+        <activity android:name=".ui.operator.ReplaySubjectActivity" />
+        <activity android:name=".ui.operator.ScanActivity" />
+        <activity android:name=".ui.operator.DoOnNextActivity" />
+        <activity android:name=".ui.operator.SingleObservableActivity" />
+        <activity android:name=".ui.operator.SkipActivity" />
+        <activity android:name=".ui.operator.TakeActivity" />
+        <activity android:name=".ui.operator.TakeWhileActivity" />
+        <activity android:name=".ui.operator.ThrottleFirstActivity" />
+        <activity android:name=".ui.operator.ThrottleLastActivity" />
+        <activity android:name=".ui.operator.ZipActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cherry.rxjavakotlin"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.cherry.rxjavakotlin.ui.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.JustActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.BufferActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.DebounceActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.DelayActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.TimerActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.IntervalActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.DisposableActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.DistinctActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.FilterActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.LastActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.MapActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.MergeActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.PublishSubjectActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.ReduceActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.ReplayActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.ReplaySubjectActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.ScanActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.DoOnNextActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.SingleObservableActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.SkipActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.TakeActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.TakeWhileActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.ThrottleFirstActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.ThrottleLastActivity" />
+        <activity android:name="com.cherry.rxjavakotlin.ui.operator.ZipActivity" />
+    </application>
+
+</manifest>

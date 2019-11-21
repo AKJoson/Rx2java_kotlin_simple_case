@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\androidsimple\\Rx2javaKotlin2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_main.xml",
+        "source": "E:\\androidsimple\\Rx2javaKotlin2\\app\\src\\main\\res\\layout\\item_main.xml"
+    },
+    {
+        "merged": "E:\\androidsimple\\Rx2javaKotlin2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\androidsimple\\Rx2javaKotlin2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
